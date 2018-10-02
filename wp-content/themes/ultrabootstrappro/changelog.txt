@@ -1,0 +1,7 @@
+Changelog
+
+Tested up to: 4.5
+
+Version 5.0.1
+i)   	Intial Pro Version Release
+

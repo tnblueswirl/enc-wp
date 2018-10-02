@@ -1,0 +1,117 @@
+/*
+Theme Name: Ultrabootstrap Pro (ENC Theme)
+Theme URI: http://phantomthemes.com/downloads/ultrabootstrap-premium-wordpress-theme/
+Author: Adam Daniels
+Author URI: http://phantomthemes.com
+Description: Ultrabootstrap is a multipurpose Free WordPress Theme for bloggers & artist. It consists of Featured Slider, Featured Posts, custom background, custom color and welcome message in Homepage layout. The theme can be customized from the Theme Options of Customizer. Blog page with right-sidebar. You may download this awesome and light weight theme. More detail of theme availabe in readme.txt file. or view the demo here http://phantomthemes.com/view?theme=Ultraboostrap%20Pro
+Version: 5.0.2
+Template: ultrabootstrappro
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ultrabootstrap
+Tags: right-sidebar, theme-options, rtl-language-support, editor-style, custom-header, threaded-comments, custom-background, custom-colors, blog
+
+*/
+body.home {
+	background-image: url(http://wp.equalitync.org/wp-content/uploads/2018/09/home-bg-fade2.png);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.navbar .container {
+	width: 100%;
+	padding-right: 0;
+}
+
+.menu-item {
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+.welcome {
+	background: transparent;
+	height: auto;
+	margin-top: 5em;
+}
+
+.welcome-message {
+	background-color: rgba(255,255,255,0.5);
+	padding: 1em;
+	font-weight: bold;
+}
+.welcome-message h1 {
+	color: #006488;
+	text-transform: capitalize;
+}
+
+header .navbar {
+	/*background-color: rgba(255,255,255,0.7);*/
+	background:transparent;
+}
+header .navbar.scrolled {
+	background-color: rgba(255,255,255,0.7);
+
+}
+header .logo-tag {
+	margin: 10px 0;
+}
+header .navbar.scrolled .logo-tag {
+ 	margin: 5px 0 0;
+}
+header .navbar.scrolled .logo-tag img {
+ 	height: 50px;
+ 	width: 44.8px;
+}
+
+.footer-menu .menu-footer-container ul {
+	list-style:none;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+.menu-footer-container ul li {
+	display: inline-block;
+}
+.menu-footer-container ul li:after {
+	content: " | ";
+}
+.menu-footer-container ul li:last-child:after {
+	content: "";
+}
+
+.footer-menu {
+	font-size: 1.1em;
+}
+
+.call-to-action a:link,
+.call-to-action a:visited,
+.call-to-action a:hover,
+.call-to-action a:active {
+	color: #FFF;
+}
+.call-to-action a div {
+	background-color: rgb(177, 187, 68);
+	padding: 2em;
+	text-align: center;
+	line-height: 100px;
+	font-size: 1em;
+	font-weight: bolder;
+}
+
+.spacer {
+	padding-top: 200px;
+}
+
+
+/* make logo 160px
+remove width styling on menu
+add DONATE near top
+decrease size of leadership blocks to 140px?
+remove white bg on nav bar
+
+call to actions above leadership block (DONATE, VOLUNTEER, VOTE, GALA)
+*/
